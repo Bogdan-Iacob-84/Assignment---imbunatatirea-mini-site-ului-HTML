@@ -1,0 +1,84 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    color: rgb(63, 63, 63); 
+}
+aside {
+    width: 10%;
+    height: 99%;
+    position: absolute;
+    border-right: 1px solid rgba(196, 191, 182, 0.829);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em;
+    border-top: 1px solid rgba(196, 191, 182, 0.829);
+    background-color: rgba(241, 241, 199, 0.103); 
+    border-left: 1px solid rgba(196, 191, 182, 0.829);
+    border-bottom: 1px solid rgba(196, 191, 182, 0.829);       
+}
+section {
+    width: 89%;
+	height: 99%;
+    display: inline-block;
+    position: absolute;
+    right: 0vmax;
+    padding: 0 1em 2em 1em;
+    background-color: rgba(78, 72, 62, 0.068);
+    border-top: 1px solid rgba(196, 191, 182, 0.829);
+    border-right: 1px solid rgba(196, 191, 182, 0.829);
+    border-left: 1px solid rgba(196, 191, 182, 0.829);
+    border-bottom: 1px solid rgba(196, 191, 182, 0.829);
+}
+a {
+    display: inline-block;
+    margin: 0.5em 0;
+    color: rgb(56, 46, 37);
+    text-decoration: none;
+}
+.text {
+    display: inline-block;
+    font-size: 1.2em;
+    vertical-align: top;
+}
+img {
+    float: left;
+    padding-right: 1em;
+    padding-top: 1.2em;
+}
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+#heading {
+    background-color: rgb(63, 63, 63);
+    color: rgb(247, 247, 215);
+    text-align: left;
+    font-weight: 400;
+}
+th {
+    padding: 12px;
+}  
+td {
+    padding: 12px;
+}
+th, td {
+    border: solid 1px #949090;
+}
+tr {
+    background-color:  rgba(241, 241, 199, 0.103);
+}
+.firstcolumn {
+    width: 50%;
+    height: 4.3em;
+}
+.secondcolumn {
+    width: 25%;
+}
+.fit {
+    height: 98%;
+}
